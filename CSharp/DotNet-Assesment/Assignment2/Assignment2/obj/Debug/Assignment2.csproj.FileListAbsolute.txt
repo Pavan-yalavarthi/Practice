@@ -1,0 +1,9 @@
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+C:\infinite\CSharp\DotNet-Assesment\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
