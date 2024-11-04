@@ -1,7 +1,0 @@
-C:\infinite\CSharp\Day1\Day1\bin\Debug\Day1.exe.config
-C:\infinite\CSharp\Day1\Day1\bin\Debug\Day1.exe
-C:\infinite\CSharp\Day1\Day1\bin\Debug\Day1.pdb
-C:\infinite\CSharp\Day1\Day1\obj\Debug\Day1.csproj.AssemblyReference.cache
-C:\infinite\CSharp\Day1\Day1\obj\Debug\Day1.csproj.CoreCompileInputs.cache
-C:\infinite\CSharp\Day1\Day1\obj\Debug\Day1.exe
-C:\infinite\CSharp\Day1\Day1\obj\Debug\Day1.pdb

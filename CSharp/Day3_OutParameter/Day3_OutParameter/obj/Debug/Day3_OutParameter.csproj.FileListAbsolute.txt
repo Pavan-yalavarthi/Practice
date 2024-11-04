@@ -1,9 +1,0 @@
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\bin\Debug\Day3_OutParameter.exe.config
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\bin\Debug\Day3_OutParameter.exe
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\bin\Debug\Day3_OutParameter.pdb
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\obj\Debug\Day3_OutParameter.csproj.AssemblyReference.cache
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\obj\Debug\Day3_OutParameter.Properties.Resources.resources
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\obj\Debug\Day3_OutParameter.csproj.GenerateResource.cache
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\obj\Debug\Day3_OutParameter.csproj.CoreCompileInputs.cache
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\obj\Debug\Day3_OutParameter.exe
-C:\infinite\CSharp\Day3_OutParameter\Day3_OutParameter\obj\Debug\Day3_OutParameter.pdb

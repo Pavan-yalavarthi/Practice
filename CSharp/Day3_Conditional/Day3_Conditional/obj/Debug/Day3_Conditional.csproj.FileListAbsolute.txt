@@ -1,9 +1,0 @@
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\bin\Debug\Day3_Conditional.exe.config
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\bin\Debug\Day3_Conditional.exe
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\bin\Debug\Day3_Conditional.pdb
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\obj\Debug\Day3_Conditional.csproj.AssemblyReference.cache
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\obj\Debug\Day3_Conditional.Properties.Resources.resources
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\obj\Debug\Day3_Conditional.csproj.GenerateResource.cache
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\obj\Debug\Day3_Conditional.csproj.CoreCompileInputs.cache
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\obj\Debug\Day3_Conditional.exe
-C:\infinite\CSharp\Day3_Conditional\Day3_Conditional\obj\Debug\Day3_Conditional.pdb
