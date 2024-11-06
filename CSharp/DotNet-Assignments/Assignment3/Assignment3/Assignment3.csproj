@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment3.SameString</StartupObject>
+    <StartupObject>Assignment_3.Accounts</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,13 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Accounts.cs" />
+    <Compile Include="Sales.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="SameString.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="StringLength.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

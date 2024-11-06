@@ -1,4 +1,3 @@
-C:\infinite\CSharp\DotNet-Assignments\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
 C:\infinite\CSharp\DotNet-Assignments\Assignment3\Assignment3\bin\Debug\Assignment3.exe
 C:\infinite\CSharp\DotNet-Assignments\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
 C:\infinite\CSharp\DotNet-Assignments\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.AssemblyReference.cache

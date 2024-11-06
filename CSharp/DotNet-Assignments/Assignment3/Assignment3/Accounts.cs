@@ -4,71 +4,96 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment3
+namespace Assignment_3
 {
-   /* class Accounts
+    public class Accounts
     {
-        static int AccountNumber;
-        static string CustomerName;
-        static string AccountType;
-        static double Balance;
-        
-        public Accounts(int accountNumber,string customerName,string accountType,double balance)
+        static int accountNo;
+        static int amount;
+        static int balance;
+        static String transaction_type, customer_name, account_type;
+        public Accounts(int AccountNo, String Customer_name, String Account_type)
         {
-            AccountNumber = accountNumber;
-            CustomerName = customerName;
-            AccountType = accountType;
-            Balance = balance;
+            accountNo = AccountNo;
+            customer_name = Customer_name;
+            account_type = Account_type;
         }
-         void UpdateBalance(char transactionType, double amount)
+        void Debit(int amount)
         {
-            if (transactionType == 'Deposit')
+
+            if (amount > balance)
+            {
+               
+                Console.WriteLine("Insufficient amount:");
+              
+            }
+            else
+            {
+                balance = balance - amount;
+               
+                Console.WriteLine("The amount" + amount + "withdrawn successfully:");
+               
+            }
+
+
+
+        }
+        void Credit(int amount)
+        {
+
+
+
+            balance = balance + amount;
+           
+            Console.WriteLine("The amount" + amount + "deposited successfully:");
+
+        }
+        void UpdateBalance(int amount)
+        {
+            if (transaction_type == "Deposit")
             {
                 Credit(amount);
             }
             else
             {
-                if (transactionType == 'Withdraw')
+                if (transaction_type == "Withdraw")
                 {
                     Debit(amount);
                 }
             }
-        }
-        void Debit()
-        {
-            if (transactionType == "Withdraw")
-            {
-                if (amount > balance)
-                {
-                    Console.WriteLine("Insufficient amount");
-                }
-                else
-                {
-                    balance = balance - amount;
-                    Console.WriteLine(amount+" Withdraw successfully..");
-                }
-            }
-        }
-        void Credit()
-        {
-            if (transactionType == "Deposit")
-            {
-                balance = balance + amount;
-                Console.WriteLine(amount+" Deposit succesfully..");
-            }
+
+
+
         }
         void ShowData()
         {
-            Console.WriteLine("Account Number is "+accountNumber);
-            Console.WriteLine("Customer Name is "+customerName);
-            Console.WriteLine("Account Type is "+accountType);
-            Console.WriteLine("Transaction Type is "+transactionType);
-            Console.WriteLine("Amount : "+amount);
-            Console.WriteLine("Available Balance is : "+balance);
-        }
-        public static void Main(string[] args)
-        {
+            Console.WriteLine("The account number is:" + accountNo);
+            Console.WriteLine("The customer name is:" + customer_name);
+            Console.WriteLine("The account type is:" + account_type);
+            Console.WriteLine("The transaction type is:" + transaction_type);
+            Console.WriteLine("The amount is:" + amount);
+            Console.WriteLine("The available balance is:" + balance);
 
+        }
+
+        public static void Main(String[] args)
+        {
+            Console.WriteLine("Enter the account number:");
+            accountNo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the customer name:");
+            customer_name = Console.ReadLine();
+            Console.WriteLine("Enter the account type:");
+            account_type = Console.ReadLine();
+            Console.WriteLine("Enter the amount:");
+            amount = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the transaction type Withdraw or Deposit:");
+            transaction_type = Console.ReadLine();
+
+            Accounts acc = new Accounts(accountNo, customer_name, account_type);
+            acc.UpdateBalance(amount);
+            acc.ShowData();
+            Console.Read();
         }
     }
 }
+
