@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assessment1.FirstAndLastChar</StartupObject>
+    <StartupObject>Assessment1.RemovePosition</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -10,19 +10,22 @@ namespace Assessment1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CharacterPosition("Python", 1));
-            Console.WriteLine(CharacterPosition("Python", 0));
-            Console.WriteLine(CharacterPosition("Python", 4));
-            Console.Read();
-        }
-           static  string CharacterPosition(string str , int position)
+            Console.WriteLine("Enter a string:");
+            string input = Console.ReadLine();
+
+            Console.WriteLine("Enter the position to remove the letter:");
+            int position = int.Parse(Console.ReadLine());
+
+            if (position < 0 || position >= input.Length)
             {
-            if (position < 0 || position >= str.Length)
-             {
-                return str;
-             }
-            return str.Remove(position, 1);
+                Console.WriteLine("Invalid position");
             }
-        
+            else
+            {
+                string result = input.Remove(position, 1);
+                Console.WriteLine("Result string: " + result);
+                Console.ReadLine();
+            }
+        }
     }
 }
