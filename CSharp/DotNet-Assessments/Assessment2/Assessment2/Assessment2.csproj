@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assessment2.ProductsProgram</StartupObject>
+    <StartupObject>Assessment2.NegativeException</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
