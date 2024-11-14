@@ -51,7 +51,7 @@ namespace Assessment2
                 }
             }
 
-            Console.WriteLine("\nSorted Products Based on Price:");
+            Console.WriteLine("Sorted Products Based on Price:");
             for (int i = 0; i < products.Length; i++)
             {
                 Console.WriteLine($"Product ID: {products[i].ProductId}, Name: {products[i].ProductName}, Price: {products[i].Price:C}");
