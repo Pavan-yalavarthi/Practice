@@ -1,0 +1,7 @@
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.AssemblyReference.cache
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CoreCompileInputs.cache
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.exe
+C:\infinite\CSharp\DotNet-Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.pdb
