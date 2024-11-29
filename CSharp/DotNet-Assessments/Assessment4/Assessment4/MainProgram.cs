@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assessment_4
+namespace Assessment4
 {
     public class Employee
     {

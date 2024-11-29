@@ -127,6 +127,6 @@ insert into student_details values
 (6,'SaiSaran',21,'B.A',9865836779,'saisaran@gmail,com','Madurai','F'),
 (7,'Tom',23,'BCA',6552836779,'tom@gmail,com','Pune','M')
 
- select count(gender) as 'Genders' from student_details
+ select gender,count(*) as 'Genders' from student_details
  group by gender
  
