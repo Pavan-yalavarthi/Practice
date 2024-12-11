@@ -1,0 +1,7 @@
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.AssemblyReference.cache
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CoreCompileInputs.cache
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.exe
+C:\infinite\SQl\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.pdb
