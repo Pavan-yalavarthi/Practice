@@ -13,7 +13,7 @@ namespace Sp_ProductDetails
         public static SqlConnection conn = null;
         public static SqlCommand comm = null;
         public static IDataReader reader = null;
-        void Operations()
+        void Products()
         {
             //Connect to database.
             conn = new SqlConnection("Data source = ICS-LT-D244D6BJ\\SQLEXPRESS; Database = Assignment1; trusted_connection = true;");
@@ -52,7 +52,7 @@ namespace Sp_ProductDetails
             conn.Close();
 
         }
-        void select()
+        void selectQuery()
         {
             conn = new SqlConnection("Data source = ICS-LT-D244D6BJ\\SQLEXPRESS; Database = Assignment1; trusted_connection = true;");
             Console.WriteLine("Successfully connected:");
@@ -86,8 +86,8 @@ namespace Sp_ProductDetails
         public static void Main(string[] args)
         {
             Program p = new Program();
-            p.Operations();
-            p.select();
+            p.Products();
+            p.selectQuery();
             Console.Read();
         }
     }
