@@ -1,0 +1,7 @@
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\bin\Debug\Sp_ProductDetails.exe.config
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\bin\Debug\Sp_ProductDetails.exe
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\bin\Debug\Sp_ProductDetails.pdb
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\obj\Debug\Sp_ProductDetails.csproj.AssemblyReference.cache
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\obj\Debug\Sp_ProductDetails.csproj.CoreCompileInputs.cache
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\obj\Debug\Sp_ProductDetails.exe
+C:\infinite\SQl\Assessments\Assessment3\Sp_ProductDetails\Sp_ProductDetails\obj\Debug\Sp_ProductDetails.pdb
