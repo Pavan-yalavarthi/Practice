@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Java Script 3</title>
+    <script>
+        function multiply() {
+            num1 = document.getElementById("firstnumber").value;
+            num2 = document.getElementById("secondnumber").value;
+            document.getElementById("Total").innerHTML = num1 * num2;
+        }
+
+        function division() {
+            num1 = document.getElementById("firstnumber").value;
+            num2 = document.getElementById("secondnumber").value;
+            document.getElementById("Total").innerHTML = num1 / num2;
+        }
+    </script>
+</head>
+<body>
+    <!--1st One-->
+    <form>
+        1st Number : <input type="text" id="firstnumber" placeholder="Enter Number1" /><br />
+
+        2nd Number : <input type="text" id="secondnumber" placeholder="Enter Number2" /><br />
+        <input type="button" onclick="multiply()" value="Multiply" />
+
+        <input type="button" onclick="division()" value="Division" />
+    </form>
+    <p>
+        Result is : <div id="Total"></div>
+    </p>
+    <!--2nd Script-->
+    <script>
+        for (let i = 0; i <= 15; i++) {
+            if (i % 2 == 0) {
+                document.write(i + " is even <br>");
+            } else {
+                document.write(i + " is odd <br>");
+            }
+        }
+    </script>
+   <!--3rd Script-->
+    <h3>Click Button Event Listener</h3>
+    <button id="myButton">Click Event Liserner</button>
+    <script>
+        const button = document.getElementById('myButton');
+        button.addEventListener('click', function () {
+            console.log('Event liserners Button clicked');
+            alert('Event liserners Button  clicked');
+        });
+    </script>
+
+</body>
+</html>
