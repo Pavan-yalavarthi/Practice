@@ -16,7 +16,7 @@ namespace Train
         public static IDataReader dr;
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Indian Railways..");
+            Console.WriteLine("Welcome to Railway Reservation..");
             Console.WriteLine("------------------------------");
             conn = new SqlConnection("Data source = ICS-LT-D244D6BJ\\SQLEXPRESS; database = Handson; trusted_connection = true;");
 
@@ -156,7 +156,7 @@ namespace Train
                         AdminDetails.DeleteTrain();
                         break;
                     case 4:
-                        Console.WriteLine("Exit");
+                        Console.WriteLine("Exiting Admin Menu");
                         return;
                     default:
                         Console.WriteLine("Invalid Choice");
@@ -194,7 +194,7 @@ namespace Train
                         UserDetails.ShowBookings(userId);
                         break;
                     case 5:
-                        Console.WriteLine("Exit");
+                        Console.WriteLine("Exiting User Menu");
                         return;
                     default:
                         Console.WriteLine("Invalid Choice..");
