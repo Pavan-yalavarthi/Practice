@@ -1,0 +1,14 @@
+C:\Dotnet_Practice\Train\Train\bin\Debug\Train.exe.config
+C:\Dotnet_Practice\Train\Train\bin\Debug\Train.exe
+C:\Dotnet_Practice\Train\Train\bin\Debug\Train.pdb
+C:\Dotnet_Practice\Train\Train\obj\Debug\Train.csproj.AssemblyReference.cache
+C:\Dotnet_Practice\Train\Train\obj\Debug\Train.csproj.CoreCompileInputs.cache
+C:\Dotnet_Practice\Train\Train\obj\Debug\Train.exe
+C:\Dotnet_Practice\Train\Train\obj\Debug\Train.pdb
+C:\infinite\Mini_Project\Train\Train\bin\Debug\Train.exe.config
+C:\infinite\Mini_Project\Train\Train\bin\Debug\Train.exe
+C:\infinite\Mini_Project\Train\Train\bin\Debug\Train.pdb
+C:\infinite\Mini_Project\Train\Train\obj\Debug\Train.csproj.AssemblyReference.cache
+C:\infinite\Mini_Project\Train\Train\obj\Debug\Train.csproj.CoreCompileInputs.cache
+C:\infinite\Mini_Project\Train\Train\obj\Debug\Train.exe
+C:\infinite\Mini_Project\Train\Train\obj\Debug\Train.pdb
