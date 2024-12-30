@@ -79,12 +79,13 @@ namespace Train
             SqlCommand comm = new SqlCommand("sp_CancelTicket", conn);
             comm.CommandType = CommandType.StoredProcedure;
             comm.Parameters.AddWithValue("@BookingID", bookingId);
-
+            
             int rowsAffected = comm.ExecuteNonQuery();
             if (rowsAffected > 0)
                 Console.WriteLine("Ticket canceled successfully!");
             else
                 Console.WriteLine("Invalid Booking ID!");
+
         }
 
 

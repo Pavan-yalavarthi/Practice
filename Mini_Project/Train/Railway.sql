@@ -16,6 +16,7 @@ Destination Varchar(30) Not Null,
 FirstClass int Not Null,
 SecondClass int Not Null,
 SleeperClass int Not Null,
+IsActive int
 )
 Alter table trains alter column Destination Varchar(30) Not null
 
@@ -30,9 +31,16 @@ UserID INT Not Null Foreign key references Users(UserId),
 --Destination Varchar(30),
 BookingClass varchar(25) Check (BookingClass in ('FirstClass','SecondClass','SleeperClass')),
 NumberOfSeats int Not Null,
-BookingDate DateTime Default GetDate())
+BookingDate DateTime Default GetDate(),
+Status varchar(25)
+)
+
+
 select * from bookings
 select * from trains
+
+drop table Bookings
+drop table Trains
 --Add Train
 create or alter procedure sp_AddTrain
 @TrainId int,
@@ -45,8 +53,8 @@ create or alter procedure sp_AddTrain
  As
  Begin
  Set Identity_Insert Trains on;
- Insert Into Trains (TrainId,TrainName,Source,Destination,FirstClass,SecondClass,SleeperClass)
- Values (@TrainId,@TrainName,@Source,@Destination,@FirstClass,@SecondClass,@SleeperClass)
+ Insert Into Trains (TrainId,TrainName,Source,Destination,FirstClass,SecondClass,SleeperClass,IsActive)
+ Values (@TrainId,@TrainName,@Source,@Destination,@FirstClass,@SecondClass,@SleeperClass,1)
  Set Identity_Insert Trains off;
  End
 
@@ -71,7 +79,9 @@ BEGIN
     DECLARE @AvailableSeats INT;
  
     IF @BookingClass = 'FirstClass'
+	begin
         SELECT @AvailableSeats = FirstClass FROM Trains WHERE TrainID = @TrainID --AND IsActive = 1;
+		end;
  
     ELSE IF @BookingClass = 'SecondClass'
         SELECT @AvailableSeats = SecondClass FROM Trains WHERE TrainID = @TrainID-- AND IsActive = 1;
@@ -81,8 +91,8 @@ BEGIN
  
     IF @AvailableSeats >= @NumberOfSeats
     BEGIN
-        INSERT INTO Bookings (UserId,TrainID, BookingClass, NumberOfSeats)
-        VALUES (@UserId,@TrainID,@BookingClass, @NumberOfSeats);
+        INSERT INTO Bookings (UserId,TrainID, BookingClass, NumberOfSeats,Status)
+        VALUES (@UserId,@TrainID,@BookingClass, @NumberOfSeats,'Booked');
  
         IF @BookingClass = 'FirstClass'
             UPDATE Trains SET FirstClass = FirstClass - @NumberOfSeats WHERE TrainID = @TrainID;
@@ -107,19 +117,27 @@ BEGIN
  
     SELECT @TrainID = TrainID, @BookingClass = BookingClass, @NumberOfSeats = NumberOfSeats
     FROM Bookings
-    WHERE BookingID = @BookingID --AND IsCancelled = 0;
+    WHERE BookingID = @BookingID 
  
-    IF @BookingClass = 'FirstClass'
+    IF @BookingClass = 'FirstClass'	
+	begin
+	update Bookings set Status ='Cancelled' where BookingID = @BookingID ;
         UPDATE Trains SET FirstClass = FirstClass + @NumberOfSeats WHERE TrainID = @TrainID;
- 
+	end;
     ELSE IF @BookingClass = 'SecondClass'
+	begin
+	update Bookings set Status ='Cancelled' where BookingID = @BookingID ;
         UPDATE Trains SET SecondClass = SecondClass + @NumberOfSeats WHERE TrainID = @TrainID;
+		end;
  
     ELSE IF @BookingClass = 'SleeperClass'
+	begin
+	update Bookings set Status ='Cancelled' where BookingID = @BookingID; 
         UPDATE Trains SET SleeperClass = SleeperClass + @NumberOfSeats WHERE TrainID = @TrainID;
+		end;
  
-    --UPDATE Bookings SET IsCancelled = 1 WHERE BookingID = @BookingID;
-	Delete from Bookings where Bookingid = @BookingId
+    --UPDATE Bookings SET IsCancelled = 0 WHERE BookingID = @BookingID;
+	--Delete from Bookings where Bookingid = @BookingId
 	print 'Ticket cancelled Successfully'
 END
 
@@ -186,3 +204,4 @@ End
 
 
 select * from Trains
+select * from bookings
