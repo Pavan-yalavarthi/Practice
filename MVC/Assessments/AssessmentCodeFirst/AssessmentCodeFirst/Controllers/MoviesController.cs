@@ -47,16 +47,6 @@ namespace AssessmentCodeFirst.Controllers
             return View(movie);
         }
 
-        public ActionResult Details(int id)
-        {
-            var movie = m.GetById(id);
-            if (movie == null)
-            {
-                return HttpNotFound();
-            }
-            return View(movie);
-        }
-
         public ActionResult Index()
         {
             var movies = m.GetAll();

@@ -8,7 +8,7 @@ namespace AssessmentCodeFirst.Models
 {
     public class MovieContext : DbContext
     {
-        public MovieContext() : base("name= connectstr") { }
-        public DbSet<Movie> Product { get; set; }
+        public MovieContext() : base("name= MoviesDB") { }
+        public DbSet<Movie> Movie { get; set; }
     }
 }
