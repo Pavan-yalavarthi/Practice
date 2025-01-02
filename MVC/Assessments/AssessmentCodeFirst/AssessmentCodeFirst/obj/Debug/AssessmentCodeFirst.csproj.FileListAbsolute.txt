@@ -1,0 +1,2 @@
+C:\infinite\MVC\Assessments\AssessmentCodeFirst\AssessmentCodeFirst\obj\Debug\AssessmentCodeFirst.csproj.AssemblyReference.cache
+C:\infinite\MVC\Assessments\AssessmentCodeFirst\AssessmentCodeFirst\obj\Debug\AssessmentCodeFirst.csproj.CoreCompileInputs.cache
